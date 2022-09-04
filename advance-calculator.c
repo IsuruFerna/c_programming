@@ -6,10 +6,9 @@ int main()
  double num1, num2;
  char op;
 
-  int x = 15;
  printf("Enter a number: ");
  scanf("%lf", &num1);
- printf("Enter oporator: ");
+ printf("Enter operator: ");
  scanf(" %c", &op);
  printf("Enter a number: ");
  scanf("%lf", &num2); 
@@ -24,8 +23,8 @@ int main()
  } else if (op == '/') {
   printf("%f", num1 / num2);
  } else {
-  printf("Invalid oporator");
+  printf("Invalid operator");
  }
- 
+
  return 0;
 }
