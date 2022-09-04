@@ -6,6 +6,7 @@ int main()
  double num1, num2;
  char op;
 
+  int x = 15;
  printf("Enter a number: ");
  scanf("%lf", &num1);
  printf("Enter oporator: ");
@@ -25,4 +26,6 @@ int main()
  } else {
   printf("Invalid oporator");
  }
+ 
+ return 0;
 }
