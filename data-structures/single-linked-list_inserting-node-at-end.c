@@ -57,7 +57,5 @@ int main()
   tmp1->link = tmp;
   printf("Val: %i\n", tmp->data);
 
-
-
   return 0;
 }
