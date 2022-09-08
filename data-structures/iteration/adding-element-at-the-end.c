@@ -68,7 +68,7 @@ int main()
   new->next = NULL;
 
   curr->next = new;
-  printf("data: %d\n", curr->data);
+  printf("data: %d\n", new->data);
 
 
   return 0;
